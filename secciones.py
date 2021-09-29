@@ -108,7 +108,7 @@ class SeccionICHA(object):
         if self.seccion=="o" or self.seccion=="O":
             self.seccion_=[self.seccion,self.d,"x",self.dint]
         if self.seccion=="[]":
-            self.seccion_=[self.perfil,self.d,"x",self.B,"x",self.peso]
+            self.seccion_=[self.seccion,self.D,"x",self.B,"x",self.peso]
             
 
             
